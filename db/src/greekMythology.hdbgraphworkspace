@@ -1,0 +1,5 @@
+GRAPH WORKSPACE "Graphapp.db::greekMythology"
+EDGE TABLE "Graphapp.db::tables.Relationships"
+SOURCE COLUMN "source" TARGET COLUMN "target" KEY COLUMN "key"
+VERTEX TABLE "Graphapp.db::tables.Members"
+KEY COLUMN "name"
